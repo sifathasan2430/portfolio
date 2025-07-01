@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 const Project = () => {
   const techStack = ['HTML', 'Tailwind', 'React', 'MongoDB', 'Express'];
   const features = [
+    'Filter & Search** apartments by category, location, price, and amenities',
     'Admins can upload, update, and manage apartment listings.',
     'Users can view room details and book available apartments.',
     'Secure login and role-based access for admins and users.',
