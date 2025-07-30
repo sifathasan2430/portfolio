@@ -18,16 +18,16 @@ const Project = () => {
 
       <div className="flex flex-col lg:flex-row gap-10">
         {/* Scrollable Image Section */}
-        <div className="w-full lg:w-1/2 h-[500px] overflow-y-auto rounded-xl shadow-lg border">
+        <div className="w-full lg:w-1/2 h-[550px] overflow-y-auto rounded-xl shadow-lg border">
           <img
-            src="https://i.ibb.co/G37pzmz1/roomatefinder-5e9a6-web-app-3.png"
+            src="https://i.ibb.co/F41JGRKX/png.jpg"
             alt="Room Finder Preview"
             className="w-full"
           />
         </div>
 
         {/* Project Info */}
-        <div className="w-full lg:w-1/2 h-[500px] flex flex-col justify-between space-y-6 overflow-y-auto pr-2">
+        <div className="w-full lg:w-1/2 h-[550px] flex flex-col justify-between space-y-6 overflow-y-auto pr-2">
           <div>
             <h3 className="text-2xl font-semibold mb-2">Room Finder</h3>
             <p className="text-gray-700 leading-relaxed">
@@ -57,7 +57,7 @@ const Project = () => {
 
           <div>
             <Button asChild className="mt-4 w-full">
-              <Link to="https://your-live-link.com" target="_blank" rel="noopener noreferrer">
+              <Link to="https://roomatefinder-5e9a6.web.app" target="_blank" rel="noopener noreferrer">
                 Live Site
               </Link>
             </Button>

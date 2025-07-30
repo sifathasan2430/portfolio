@@ -3,6 +3,8 @@ import React from 'react';
 import { Button } from "@/components/ui/button"
 import { BiLocationPlus } from 'react-icons/bi';
 import { MdEmail } from 'react-icons/md';
+import { Link } from 'react-router-dom';
+
 
 const Hero = () => {
     
@@ -34,10 +36,19 @@ const Hero = () => {
                           </div>
                           
                           <div className='flex gap-4'>
-                            <Button ><Download/><a href='/dummy.pdf 'download>resume</a></Button>
-                            <Button  variant='outline'><Github/></Button>
-                            <Button variant='outline'><Linkedin></Linkedin></Button>
-                            <Button variant='outline'><MdEmail></MdEmail></Button>
+                            <Button ><Download/><a href='/myresume.pdf 'download>resume</a></Button>
+                            <Button    variant='outline'><Link  to={'https://github.com/sifathasan2430/sifathasan2430'}><Github/></Link></Button>
+                            <Button disabled variant='outline'><Linkedin></Linkedin></Button>
+                           <Button
+  variant="outline"
+    
+>
+ <Link  
+                  
+                  smooth={true}
+                  duration={500}
+                  offset={-70}> <MdEmail /></Link>
+</Button>
                           </div>
                     
                 </div>
