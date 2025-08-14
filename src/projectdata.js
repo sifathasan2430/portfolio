@@ -1,5 +1,24 @@
 const  projects = [
   {
+    id: "room-finder",
+    title: "Room Finder",
+    description:
+      "A full-stack web application where administrators manage apartment listings and users can search, filter, and book rooms. Uses Redux Toolkit to manage global authentication.",
+    imageUrl:[ "https://i.ibb.co.com/XfBQ5RHq/png-9.jpg","https://i.ibb.co.com/kgxXvhVV/png-12.jpg"],
+    liveLink: "https://roomatefinder-5e9a6.web.app",
+    githubLink: "https://github.com/sifathasan2430/roommatefinder-client-site",
+    techStack: ["HTML", "Tailwind", "React", "MongoDB","redux-toolkit", "Express"],
+    challenges: [
+      "Building advanced search and filter system by redux toolkit",
+      "Implementing booking flow with role-based access",
+    ],
+    futurePlans: [
+      "Add payment integration",
+      "Enable map-based room search",
+      "update the dashboard"
+    ],
+  },
+  {
     id: "life-insurance",
     title: "Life Insurance Management",
     description:
@@ -25,24 +44,7 @@ const  projects = [
       "Introduce a mobile app version",
     ],
   },
-  {
-    id: "room-finder",
-    title: "Room Finder",
-    description:
-      "A full-stack web application where admins can manage apartment listings and users can search, filter, and book rooms.",
-    imageUrl:[ "https://i.ibb.co.com/XfBQ5RHq/png-9.jpg","https://i.ibb.co.com/kgxXvhVV/png-12.jpg"],
-    liveLink: "https://roomatefinder-5e9a6.web.app",
-    githubLink: "https://github.com/sifathasan2430/roommatefinder-client-site",
-    techStack: ["HTML", "Tailwind", "React", "MongoDB", "Express"],
-    challenges: [
-      "Building advanced search and filter system",
-      "Implementing booking flow with role-based access",
-    ],
-    futurePlans: [
-      "Add payment integration",
-      "Enable map-based room search",
-    ],
-  },
+  
   {
     id: "tour-management",
     title: "Tour Management System",
