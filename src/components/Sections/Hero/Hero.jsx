@@ -44,7 +44,7 @@ const Hero = () => {
           <div>
             <p className="text-sm text-[#71717a]">
               Passionate Web Developer skilled in React.js, Tailwind CSS,
-              Express.js, redux (familiar) and MongoDB. I build responsive, user-friendly
+              Express.js, Nextjs (familiar) and MongoDB. I build responsive, user-friendly
               full-stack applications and love turning ideas into clean,
               functional designs. Actively learning and seeking real-world
               projects to grow and collaborate
