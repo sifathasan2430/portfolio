@@ -8,6 +8,7 @@ import {
   DiNodejs,
   DiGit,
   DiFirebase,
+  
 } from 'react-icons/di';
 import { SiTailwindcss, SiExpress, SiVercel } from 'react-icons/si';
 
@@ -45,6 +46,7 @@ const MySkills = () => {
             <DiReact className={iconStyle} size={80} />
             <p className="mt-2">React</p>
           </div>
+           
         </div>
       </div>
 

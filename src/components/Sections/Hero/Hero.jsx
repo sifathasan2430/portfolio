@@ -43,16 +43,12 @@ const Hero = () => {
 
           <div>
             <p className="text-sm text-[#71717a]">
-              Passionate Web Developer skilled in React.js, Tailwind CSS,
-              Express.js, Nextjs (familiar) and MongoDB. I build responsive, user-friendly
-              full-stack applications and love turning ideas into clean,
-              functional designs. Actively learning and seeking real-world
-              projects to grow and collaborate
+              "I’m Sifat Hasan, a passionate MERN & Next.js developer focused on building scalable, modern, and user-friendly web applications. I craft sleek frontends with Next.js, ShadCN, Magic UI, and Assernity UI, and manage robust backends using Mongoose & Express. I work with TanStack Query for efficient data fetching, configure custom OTP authentication, and integrate NextAuth for secure login flows. With strong experience in remote collaboration using Git, I aim to deliver production-ready, SaaS-inspired solutions with clean code and great user experience
             </p>
           </div>
 
           <div className="flex gap-4">
-            <a href="/myresume.pdf" download>
+            <a href="/public/resume.pdf" download>
               <Button>
                 <Download className="mr-2" />
                 Resume
